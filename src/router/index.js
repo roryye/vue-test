@@ -11,19 +11,24 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/h',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/',
+      name: 'Login',
+      component: Login
     },
     {
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/h',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path: '/score',
+      name: 'Nav',
+      component: NavBar
     }
-    // {
-    //   path: '/',
-    //   name: 'Nav',
-    //   component: NavBar
-    // }
   ]
 })
